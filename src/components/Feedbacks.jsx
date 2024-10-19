@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
 
 const Feedbacks = () => {
   return (
-    <div>Feedbacks</div>
-  )
-}
+    <div className="w-full min-h-screen pt-20 bg-blue-">
+      <div className="w-full h-full">
+        <img src="/public/construct.png" alt="" />
+      </div>
+    </div>
+  );
+};
 
-export default Feedbacks
+export default Feedbacks;
