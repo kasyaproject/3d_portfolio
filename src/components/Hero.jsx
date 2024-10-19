@@ -50,7 +50,7 @@ const Hero = () => {
 
         {/* Name + Tittle */}
         <div>
-          <h1 className="mt-10 text-3xl font-semibold">
+          <h1 className="text-3xl font-semibold mt-7">
             <TypeIt
               options={{
                 strings: ["Hi, I`m"],
@@ -107,7 +107,7 @@ const Hero = () => {
           )}
           {isPVisible && (
             <p
-              className={`${styles.heroSubText} mt-4 uppercase tracking-[6px] sm:tracking-[14px]`}
+              className={`${styles.heroSubText} mt-4 uppercase tracking-[6px] sm:tracking-[10px]`}
             >
               <TypeIt
                 options={{
@@ -121,7 +121,11 @@ const Hero = () => {
         </div>
       </div>
 
-      <ComputersCanvas />
+      <div className="flex items-end w-full h-screen bg-green-">
+        <div className="w-full pb-3 h-1/2">
+          <ComputersCanvas />
+        </div>
+      </div>
     </section>
   );
 };
