@@ -45,7 +45,7 @@ const About = () => {
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className="max-w-3xl mt-4 text-lg leading-8 text-secondary"
+        className="mt-4 text-lg leading-8  text-secondary"
       >
         Previously, I worked as a Production Operator. However, with a strong
         educational background in Informatics Engineering, I have a deep passion
@@ -56,7 +56,7 @@ const About = () => {
         the industry.
       </motion.p>
 
-      <div className="grid grid-cols-2 gap-6 mt-6 md:gap-10 md:flex md:flex-wrap">
+      <div className="grid grid-cols-2 gap-6 mt-14 md:gap-10 md:flex md:flex-wrap">
         {services.map((service, index) => (
           <ServicesCard key={service.title} index={index} {...service} />
         ))}
