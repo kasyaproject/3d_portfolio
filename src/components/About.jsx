@@ -47,7 +47,13 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="max-w-3xl mt-4 text-lg leading-8 text-secondary"
       >
-        I am a software engineer with a passion for building innovative and
+        Previously, I worked as a Production Operator. However, with a strong
+        educational background in Informatics Engineering, I have a deep passion
+        and expertise in web application development, particularly using the
+        Laravel and Tailwind CSS frameworks. Leveraging my experience and
+        knowledge in information technology, I am committed to fully
+        transitioning to web development and making a meaningful contribution to
+        the industry.
       </motion.p>
 
       <div className="grid grid-cols-2 gap-6 mt-6 md:gap-10 md:flex md:flex-wrap">
