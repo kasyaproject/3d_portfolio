@@ -8,21 +8,28 @@ import {
   html,
   css,
   reactjs,
-  redux,
   tailwind,
-  nodejs,
-  mongodb,
+  boostrap,
+  vscode,
+  laravel,
+  mysql,
   git,
   figma,
-  docker,
+  php,
+  xampp,
   meta,
   starbucks,
   tesla,
   shopify,
   carrent,
+  uiux,
   jobit,
   tripguide,
   threejs,
+  logo,
+  daquprint,
+  temanprint,
+  cplus,
 } from "../assets";
 
 export const navLinks = [
@@ -35,6 +42,14 @@ export const navLinks = [
     title: "Work",
   },
   {
+    id: "project",
+    title: "Project",
+  },
+  {
+    id: "skill&tool",
+    title: "Skill & Tools",
+  },
+  {
     id: "contact",
     title: "Contact",
   },
@@ -42,20 +57,24 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Full-Stack Web Developer",
     icon: web,
+    link: "https://www.coursera.org/articles/full-stack-developer",
+  },
+  {
+    title: "Laravel Developer",
+    icon: backend,
+    link: "https://idcloudhost.com/blog/laravel-developer-job-desk-tugas-kerja-dan-skill/",
   },
   {
     title: "React Native Developer",
     icon: mobile,
+    link: "https://www.dicoding.com/blog/apa-itu-react-native/",
   },
   {
-    title: "Backend Developer",
-    icon: backend,
-  },
-  {
-    title: "Content Creator",
+    title: "Graphic Design",
     icon: creator,
+    link: "https://www.gramedia.com/best-seller/desain-grafis/",
   },
 ];
 
@@ -73,32 +92,40 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "C++",
+    icon: cplus,
   },
   {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "PHP",
+    icon: php,
   },
   {
     name: "Tailwind CSS",
     icon: tailwind,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
+    name: "Boostrap",
+    icon: boostrap,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "UI/UX",
+    icon: uiux,
+  },
+  {
+    name: "Laravel",
+    icon: laravel,
+  },
+  {
+    name: "React JS",
+    icon: reactjs,
   },
   {
     name: "Three JS",
     icon: threejs,
+  },
+  {
+    name: "Mysql",
+    icon: mysql,
   },
   {
     name: "git",
@@ -108,63 +135,63 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Full-Stack Web Developer",
+    company_name: "Freelancer",
+    icon: logo,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Feb 2024 - Present",
+    link: "#work",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Developing and maintaining web applications using framework laravel and other related technologies.",
+      "Responsible for the entire web application development process, from creating UI/UX design, front-end and back-end, and managing database.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Providing constructive feedback from client.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Production Operator",
+    company_name: "Daqu Printing",
+    icon: daquprint,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "2022 - 2023",
+    link: "#work",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Operate and monitor digital printing machines to ensure smooth production processes.",
+      "Ensure that print quality meets established standards.",
+      "Perform routine maintenance on printing machines to maintain operational performance and efficiency.",
+      "Collaborate with other teams to enhance workflow and improve overall production efficiency.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Production Operator",
+    company_name: "Teman Print",
+    icon: temanprint,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "2019 - 2022",
+    link: "https://www.temanprint.com/",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Operate and monitor digital printing machines to ensure smooth production processes.",
+      "Ensure that print quality meets established standards.",
+      "Perform routine maintenance on printing machines to maintain operational performance and efficiency.",
+      "Collaborate with other teams to enhance workflow and improve overall production efficiency.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Production Operator",
+    company_name: "Daqu Printing",
+    icon: daquprint,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "2016 - 2019",
+    link: "#work",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Operate and monitor digital printing machines to ensure smooth production processes.",
+      "Ensure that print quality meets established standards.",
+      "Perform routine maintenance on printing machines to maintain operational performance and efficiency.",
+      "Collaborate with other teams to enhance workflow and improve overall production efficiency.",
     ],
   },
 ];
@@ -198,66 +225,108 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Sistem Penunjang Keputusan DBN",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A web-based platform that enables users to manage employees from Daqu Bisnis Nusantara, providing a convenient and efficient solution for finding the best employees.",
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
+        name: "laravel",
+        color: "pink-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "mysql",
         color: "green-text-gradient",
       },
       {
         name: "tailwind",
-        color: "pink-text-gradient",
+        color: "blue-text-gradient",
       },
     ],
     image: carrent,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Perpusatakaan Digital",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A web application designed for reading books digitally, specifically tailored for junior high school students (SMP). This platform provides an accessible and engaging way for students to explore a wide range of literature and enhance their reading experience.",
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
+        name: "laravel",
+        color: "pink-text-gradient",
       },
       {
-        name: "restapi",
+        name: "mysql",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
-        color: "pink-text-gradient",
+        name: "tailwind",
+        color: "blue-text-gradient",
       },
     ],
-    image: jobit,
+    image: carrent,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "POS Daqu Printing",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A point-of-sale (POS) web application tailored for Daqu Printing, designed to manage sales transactions efficiently. This platform streamlines order processing, tracks inventory, and provides real-time reporting, offering a comprehensive solution to support the daily operational needs of the printing business.",
     tags: [
       {
-        name: "nextjs",
-        color: "blue-text-gradient",
+        name: "laravel",
+        color: "pink-text-gradient",
       },
       {
-        name: "supabase",
+        name: "mysql",
         color: "green-text-gradient",
       },
       {
-        name: "css",
-        color: "pink-text-gradient",
+        name: "tailwind",
+        color: "blue-text-gradient",
       },
     ],
-    image: tripguide,
+    image: carrent,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Sistem Pakar Ginjal",
+    description:
+      "A web-based expert system designed to assist in diagnosing kidney-related health conditions. This application analyzes symptoms and medical history to provide users with potential insights into kidney health, supporting early detection and guiding users toward appropriate medical consultation.",
+    tags: [
+      {
+        name: "laravel",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "mysql",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: carrent,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Trip Nusa Penida",
+    description:
+      "A web-based travel planning platform dedicated to Nusa Penida, offering curated tours, activities, and travel guides to help users explore the island’s natural beauty and cultural heritage. This service provides tailored itineraries, local insights, and easy booking options for an unforgettable travel experience.",
+    tags: [
+      {
+        name: "laravel",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "mysql",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: carrent,
     source_code_link: "https://github.com/",
   },
 ];

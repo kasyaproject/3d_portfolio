@@ -1,4 +1,6 @@
 import logo from "./logo.png";
+import daquprint from "./daquprint.png";
+import temanprint from "./temanprint.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -20,6 +22,17 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import boostrap from "./tech/bootstrap.png";
+import cplus from "./tech/c++.png";
+import java from "./tech/java.png";
+import laravel from "./tech/Laravel.png";
+import mysql from "./tech/mysql.png";
+import xampp from "./tech/xampp.png";
+import netbeans from "./tech/netbeans.png";
+import php from "./tech/php.png";
+import uiux from "./tech/ui_ux.png";
+import vscode from "./tech/vs-vode.png";
+import Github from "./tech/github.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -32,9 +45,22 @@ import tripguide from "./tripguide.png";
 
 export {
   logo,
+  daquprint,
+  java,
+  Github,
+  netbeans,
+  php,
+  uiux,
+  vscode,
+  temanprint,
+  boostrap,
+  laravel,
+  cplus,
+  mysql,
   backend,
   creator,
   mobile,
+  xampp,
   web,
   github,
   menu,
