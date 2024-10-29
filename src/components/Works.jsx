@@ -25,14 +25,14 @@ const ProjectCard = ({
           scale: 1,
           speed: 450,
         }}
-        className="w-full p-5 sm:h-[500px] bg-tertiary rounded-2xl sm:w-96"
+        className="w-3/4 p-5 sm:h-[500px] bg-tertiary rounded-2xl sm:w-96"
       >
         {/* Image background */}
-        <div className="relative w-full h-60">
+        <div className="relative w-full h-52">
           <img
             src={image}
             alt={name}
-            className="object-scale-down w-full h-full sm:object-cover rounded-2xl"
+            className="object-center w-full h-full rounded-2xl"
           />
 
           {/* Image button Github */}
@@ -57,7 +57,7 @@ const ProjectCard = ({
         </div>
 
         {/* Tags */}
-        <div className="sm:absolute sm:bottom-3">
+        <div className="sm:absolute sm:bottom-">
           <div className="flex flex-wrap gap-2 mt-4">
             {tags.map((tag) => (
               <p key={tag.name} className={`text-sm ${tag.color}`}>
@@ -93,7 +93,7 @@ const Works = () => {
         </motion.p>
       </div>
 
-      <div className="grid grid-cols-1 gap-20 mt-20 sm:grid-cols-3">
+      <div className="grid grid-cols-1 gap-6 mt-20 lg:gap-20 lg:grid-cols-3">
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}

@@ -1,5 +1,5 @@
 import React, { Suspense } from "react";
-import { Canvas } from "@react-three/fiber";
+import { Canvas, useFrame } from "@react-three/fiber";
 import {
   Decal,
   Float,
@@ -39,7 +39,7 @@ const Ball = (props) => {
 const BallCanvas = ({ icon }) => {
   return (
     // Add return statement here
-    <Canvas frameloop="demand" gl={{ preserveDrawingBuffer: true }}>
+    <Canvas shadowMap frameloop="demand" gl={{ preserveDrawingBuffer: true }}>
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls enableZoom={false} />
         <Ball imgUrl={icon} />

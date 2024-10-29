@@ -43,8 +43,19 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import dbn from "./DBN-Project.png";
+import perpus from "./Perpus.png";
+import pos from "./POS.png";
+import SPGinjal from "./SP-Ginjal.png";
+import NusaPenida from "./NusaPenida.png";
+
 export {
   logo,
+  dbn,
+  perpus,
+  pos,
+  SPGinjal,
+  NusaPenida,
   daquprint,
   java,
   Github,

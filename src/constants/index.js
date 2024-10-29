@@ -15,6 +15,8 @@ import {
   mysql,
   git,
   figma,
+  netbeans,
+  java,
   php,
   xampp,
   meta,
@@ -30,6 +32,11 @@ import {
   daquprint,
   temanprint,
   cplus,
+  dbn,
+  perpus,
+  pos,
+  SPGinjal,
+  NusaPenida,
 } from "../assets";
 
 export const navLinks = [
@@ -100,6 +107,10 @@ const technologies = [
     icon: php,
   },
   {
+    name: "Java",
+    icon: java,
+  },
+  {
     name: "Tailwind CSS",
     icon: tailwind,
   },
@@ -130,6 +141,18 @@ const technologies = [
   {
     name: "git",
     icon: git,
+  },
+  {
+    name: "Vs Code",
+    icon: vscode,
+  },
+  {
+    name: "XAMPP",
+    icon: xampp,
+  },
+  {
+    name: "Netbeans",
+    icon: netbeans,
   },
   {
     name: "figma",
@@ -242,8 +265,8 @@ const projects = [
         color: "blue-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: dbn,
+    source_code_link: "https://github.com/kasyaproject/Data-Karyawan",
   },
   {
     name: "Perpusatakaan Digital",
@@ -263,8 +286,8 @@ const projects = [
         color: "blue-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: perpus,
+    source_code_link: "https://github.com/kasyaproject/Perpustakaan-Blembem",
   },
   {
     name: "POS Daqu Printing",
@@ -284,8 +307,8 @@ const projects = [
         color: "blue-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: pos,
+    source_code_link: "https://github.com/kasyaproject/POS-DQ-Print",
   },
   {
     name: "Sistem Pakar Ginjal",
@@ -305,8 +328,9 @@ const projects = [
         color: "blue-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: SPGinjal,
+    source_code_link:
+      "https://github.com/kasyaproject/SP_Ginjal_-Dempster-Shafer-",
   },
   {
     name: "Trip Nusa Penida",
@@ -326,8 +350,8 @@ const projects = [
         color: "blue-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: NusaPenida,
+    source_code_link: "https://github.com/kasyaproject/DnT_Nusatour",
   },
 ];
 

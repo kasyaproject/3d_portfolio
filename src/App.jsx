@@ -4,7 +4,6 @@ import {
   About,
   Contact,
   Experience,
-  Feedbacks,
   Hero,
   Navbar,
   Tech,
@@ -29,7 +28,7 @@ function App() {
 
           <div className="z-0 realative">
             <Contact />
-            <StarsCanvas />
+            {/* <StarsCanvas /> */}
           </div>
         </div>
       </BrowserRouter>
