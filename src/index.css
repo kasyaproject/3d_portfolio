@@ -49,6 +49,62 @@
   background: -webkit-linear-gradient(-90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
 }
 
+.white-to-gray-text-gradient {
+  background: linear-gradient(90deg, #ffffff 0%, #808080 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+
+.pink-to-yellow-to-purple-text-gradient {
+  background: linear-gradient(90deg, #ff69b4 0%, #ffeb3b 50%, #804dee 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+
+.white-to-green-text-gradient {
+  background: linear-gradient(90deg, #ffffff 0%, #28a745 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+
+.dark-gray-to-light-gray-text-gradient {
+  background: linear-gradient(90deg, #333333 0%, #d3d3d3 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+
+.light-gray-to-dark-gray-text-gradient {
+  background: linear-gradient(90deg, #d3d3d3 0%, #333333 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+
+.white-to-light-blue-text-gradient {
+  background: linear-gradient(90deg, #ffffff 0%, #add8e6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+
+.violet-to-pink-text-gradient {
+  background: linear-gradient(-90deg, #804dee 0%, #ff66b2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block; /* Pastikan ini digunakan untuk teks yang dibatasi */
+}
+
+.blue-to-purple-text-gradient {
+  background: linear-gradient(-90deg, #007bff 0%, #804dee 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block; /* Pastikan ini digunakan untuk teks yang dibatasi */
+}
+
 .orange-text-gradient {
   background: #f12711; /* fallback for old browsers */
   background: -webkit-linear-gradient(

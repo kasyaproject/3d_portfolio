@@ -20,6 +20,7 @@ import {
   php,
   xampp,
   meta,
+  mongodb,
   starbucks,
   tesla,
   shopify,
@@ -37,6 +38,8 @@ import {
   pos,
   SPGinjal,
   NusaPenida,
+  NotionClone,
+  TwitterClone,
 } from "../assets";
 
 export const navLinks = [
@@ -131,8 +134,8 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "Monggo DB",
+    icon: mongodb,
   },
   {
     name: "Mysql",
@@ -352,6 +355,80 @@ const projects = [
     ],
     image: NusaPenida,
     source_code_link: "https://github.com/kasyaproject/DnT_Nusatour",
+  },
+  {
+    name: "Nation AI Clone",
+    description:
+      "An application or system that replicates the intelligent features of Notion AI, an AI-powered productivity assistant. Notion AI helps users enhance work efficiency by providing tools for writing, analyzing, and managing information automatically.",
+    tags: [
+      {
+        name: "Next.js",
+        color: "white-to-gray-text-gradient",
+      },
+      {
+        name: "Clerk",
+        color: "violet-to-pink-text-gradient",
+      },
+      {
+        name: "Blocknote",
+        color: "blue-to-purple-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Chadcn.ui",
+        color: "white-to-silver-text-gradient",
+      },
+      {
+        name: "Firebase",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "OpenAi",
+        color: "dark-gray-to-light-gray-text-gradient",
+      },
+    ],
+    image: NotionClone,
+    source_code_link: "https://github.com/kasyaproject/Notion-AI-Clone",
+  },
+  {
+    name: "Twitter Clone",
+    description:
+      "An application or system that replicates the core features of Twitter, a social media platform designed for sharing short, real-time updates. The Twitter clone helps users stay connected by providing tools for posting tweets, following other users, and engaging in conversations through likes, retweets, and replies.",
+    tags: [
+      {
+        name: "Vite.JS",
+        color: "pink-to-yellow-to-purple-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Daisy.ui",
+        color: "white-to-green-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "green-text-gradient",
+      },
+      {
+        name: "TanStack",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "cloudinary",
+        color: "blue-to-purple-text-gradient",
+      },
+      {
+        name: "ExpressJS",
+        color: "dark-gray-to-light-gray-text-gradient",
+      },
+    ],
+    image: TwitterClone,
+    source_code_link: "https://github.com/kasyaproject/Notion-AI-Clone",
   },
 ];
 

@@ -43,11 +43,13 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
-import dbn from "./DBN-Project.png";
-import perpus from "./Perpus.png";
-import pos from "./POS.png";
-import SPGinjal from "./SP-Ginjal.png";
-import NusaPenida from "./NusaPenida.png";
+import dbn from "./project/DBN-Project.png";
+import perpus from "./project/Perpus.png";
+import pos from "./project/POS.png";
+import SPGinjal from "./project/SP-Ginjal.png";
+import NusaPenida from "./project/NusaPenida.png";
+import NotionClone from "./project/Notion Clone.png";
+import TwitterClone from "./project/Twitter Clone.png";
 
 export {
   logo,
@@ -96,4 +98,6 @@ export {
   carrent,
   jobit,
   tripguide,
+  NotionClone,
+  TwitterClone,
 };
