@@ -261,7 +261,7 @@ const projects = [
       },
       {
         name: "mysql",
-        color: "green-text-gradient",
+        color: "orange-text-gradient",
       },
       {
         name: "tailwind",
@@ -282,7 +282,7 @@ const projects = [
       },
       {
         name: "mysql",
-        color: "green-text-gradient",
+        color: "orange-text-gradient",
       },
       {
         name: "tailwind",
@@ -303,7 +303,7 @@ const projects = [
       },
       {
         name: "mysql",
-        color: "green-text-gradient",
+        color: "orange-text-gradient",
       },
       {
         name: "tailwind",
@@ -324,7 +324,7 @@ const projects = [
       },
       {
         name: "mysql",
-        color: "green-text-gradient",
+        color: "orange-text-gradient",
       },
       {
         name: "tailwind",
@@ -346,7 +346,7 @@ const projects = [
       },
       {
         name: "mysql",
-        color: "green-text-gradient",
+        color: "orange-text-gradient",
       },
       {
         name: "tailwind",
