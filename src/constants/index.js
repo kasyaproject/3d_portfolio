@@ -341,16 +341,16 @@ const projects = [
       "A web-based travel planning platform dedicated to Nusa Penida, offering curated tours, activities, and travel guides to help users explore the island’s natural beauty and cultural heritage. This service provides tailored itineraries, local insights, and easy booking options for an unforgettable travel experience.",
     tags: [
       {
-        name: "laravel",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "mysql",
-        color: "orange-text-gradient",
+        name: "Vite.JS",
+        color: "pink-to-yellow-to-purple-text-gradient",
       },
       {
         name: "tailwind",
         color: "blue-text-gradient",
+      },
+      {
+        name: "Firebase",
+        color: "orange-text-gradient",
       },
     ],
     image: NusaPenida,

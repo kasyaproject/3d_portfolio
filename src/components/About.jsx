@@ -45,15 +45,14 @@ const About = () => {
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className="mt-4 text-lg leading-8  text-secondary"
+        className="mt-4 text-lg leading-8 text-secondary"
       >
-        Previously, I worked as a Production Operator. However, with a strong
-        educational background in Informatics Engineering, I have a deep passion
-        and expertise in web application development, particularly using the
-        Laravel and Tailwind CSS frameworks. Leveraging my experience and
-        knowledge in information technology, I am committed to fully
-        transitioning to web development and making a meaningful contribution to
-        the industry.
+        I am a web developer with a strong educational background in Informatics
+        Engineering. I have a deep passion and expertise in web application
+        development, particularly using the Laravel and Tailwind CSS frameworks.
+        Leveraging my experience and knowledge in information technology, I am
+        committed to fully focusing on web development and making a meaningful
+        contribution to the industry.
       </motion.p>
 
       <div className="grid grid-cols-2 gap-6 mt-14 md:gap-10 md:flex md:flex-wrap">
