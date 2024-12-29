@@ -23,6 +23,7 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import boostrap from "./tech/bootstrap.png";
+import expressjs from "./tech/expressjs.png";
 import cplus from "./tech/c++.png";
 import java from "./tech/java.png";
 import laravel from "./tech/Laravel.png";
@@ -69,6 +70,7 @@ export {
   boostrap,
   laravel,
   cplus,
+  expressjs,
   mysql,
   backend,
   creator,
