@@ -33,6 +33,7 @@ import {
   NusaPenida,
   NotionClone,
   TwitterClone,
+  NetflixClone,
 } from "../assets";
 
 export const navLinks = [
@@ -461,7 +462,7 @@ const projects = [
         color: "green-text-gradient",
       },
     ],
-    image: TwitterClone,
+    image: NetflixClone,
     source_code_link:
       "https://netflix-clone-mern-nua7ymvuz-andika-syamsianas-projects.vercel.app/",
   },

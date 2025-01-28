@@ -23,7 +23,7 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import boostrap from "./tech/bootstrap.png";
-import expressjs from "./tech/expressjs.png";
+import expressjs from "./tech/ExpressJs.png";
 import cplus from "./tech/c++.png";
 import java from "./tech/java.png";
 import laravel from "./tech/Laravel.png";
@@ -51,6 +51,7 @@ import SPGinjal from "./project/SP-Ginjal.png";
 import NusaPenida from "./project/NusaPenida.png";
 import NotionClone from "./project/Notion Clone.png";
 import TwitterClone from "./project/Twitter Clone.png";
+import NetflixClone from "./project/netflix-clone.jpeg";
 
 export {
   logo,
@@ -60,6 +61,7 @@ export {
   SPGinjal,
   NusaPenida,
   daquprint,
+  NetflixClone,
   java,
   Github,
   netbeans,
