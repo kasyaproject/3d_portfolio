@@ -463,8 +463,7 @@ const projects = [
       },
     ],
     image: NetflixClone,
-    source_code_link:
-      "https://netflix-clone-mern-nua7ymvuz-andika-syamsianas-projects.vercel.app/",
+    source_code_link: "https://kasyaproject-netflix-clone-mern.vercel.app/",
   },
 ];
 
