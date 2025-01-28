@@ -431,6 +431,40 @@ const projects = [
     image: TwitterClone,
     source_code_link: "https://github.com/kasyaproject/Notion-AI-Clone",
   },
+  {
+    name: "Netflix Clone | MERN + Tmdb",
+    description:
+      "An application that replicates the core features of Netflix, a popular streaming service. The Netflix clone allows users to browse and watch movies and TV shows, view details of content, and create personalized lists of favorites. Built using MERN stack (MongoDB, Express.js, React, Node.js) and integrates with TMDb API for movie and TV show data.",
+    tags: [
+      {
+        name: "Vite.JS",
+        color: "pink-to-yellow-to-purple-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Daisy.ui",
+        color: "white-to-green-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "green-text-gradient",
+      },
+      {
+        name: "ExpressJS",
+        color: "dark-gray-to-light-gray-text-gradient",
+      },
+      {
+        name: "Node Js",
+        color: "green-text-gradient",
+      },
+    ],
+    image: TwitterClone,
+    source_code_link:
+      "https://netflix-clone-mern-nua7ymvuz-andika-syamsianas-projects.vercel.app/",
+  },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
