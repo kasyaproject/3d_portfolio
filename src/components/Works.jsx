@@ -2,11 +2,10 @@ import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 
 import { styles } from "../style";
-import { github } from "../assets";
+import { github, web } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motio";
-import { p } from "framer-motion/client";
 
 const ProjectCard = ({
   index,
@@ -15,6 +14,7 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
+  deployment_link,
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -25,18 +25,42 @@ const ProjectCard = ({
           scale: 1,
           speed: 450,
         }}
-        className="w-full p-5 sm:h-[500px] bg-tertiary rounded-2xl sm:w-96"
+        className="w-full p-5 sm:min-h-[500px] bg-tertiary rounded-2xl sm:w-96"
       >
         {/* Image background */}
-        <div className="relative w-full h-52">
+        <div className="relative w-full h-40 sm:h-52">
           <img
             src={image}
             alt={name}
-            className="object-center w-full h-full rounded-2xl"
+            className="object-center w-full h-full rounded-md"
           />
 
+          {/* Image button Website */}
+          {deployment_link ? (
+            <div
+              className="absolute top-3 left-3 card-img_hover tooltip tooltip-bottom"
+              data-tip="Demo"
+            >
+              <div
+                onClick={() => window.open(deployment_link, "_blank")}
+                className="flex items-center justify-center w-10 h-10 rounded-full cursor-pointer black-gradient"
+              >
+                <img
+                  src={web}
+                  alt="web"
+                  className="object-contain w-1/2 h-1/2"
+                />
+              </div>
+            </div>
+          ) : (
+            ""
+          )}
+
           {/* Image button Github */}
-          <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
+          <div
+            className="absolute top-3 right-3 card-img_hover tooltip tooltip-bottom"
+            data-tip="Code"
+          >
             <div
               onClick={() => window.open(source_code_link, "_blank")}
               className="flex items-center justify-center w-10 h-10 rounded-full cursor-pointer black-gradient"
@@ -52,15 +76,17 @@ const ProjectCard = ({
 
         {/* Description */}
         <div className="mt-5 ">
-          <h3 className="text-base font-bold text-white">{name}</h3>
-          <p className="mt-2 text-sm text-secondary">{description}</p>
+          <h3 className="text-sm font-bold text-white sm:text-base">{name}</h3>
+          <p className="mt-2 text-xs sm:text-sm text-secondary">
+            {description}
+          </p>
         </div>
 
         {/* Tags */}
-        <div className="sm:absolute sm:bottom-">
-          <div className="flex flex-wrap gap-2 mt-4">
+        <div className="pb-2 ">
+          <div className="flex flex-wrap w-full gap-2 mt-4 ">
             {tags.map((tag) => (
-              <p key={tag.name} className={`text-sm ${tag.color}`}>
+              <p key={tag.name} className={`text-xs sm:text-sm ${tag.color}`}>
                 #{tag.name}
               </p>
             ))}
@@ -93,7 +119,7 @@ const Works = () => {
         </motion.p>
       </div>
 
-      <div className="grid grid-cols-1 gap-6 mt-20 lg:gap-20 lg:grid-cols-3">
+      <div className="grid grid-cols-2 gap-6 lg:grid-cols-3">
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}

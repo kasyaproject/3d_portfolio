@@ -31,6 +31,7 @@ import {
   pos,
   SPGinjal,
   NusaPenida,
+  firebase,
   NotionClone,
   TwitterClone,
   NetflixClone,
@@ -71,7 +72,7 @@ const services = [
     link: "https://idcloudhost.com/blog/laravel-developer-job-desk-tugas-kerja-dan-skill/",
   },
   {
-    title: "React Native Developer",
+    title: "React Developer",
     icon: mobile,
     link: "https://www.dicoding.com/blog/apa-itu-react-native/",
   },
@@ -139,6 +140,10 @@ const technologies = [
     name: "Express Js",
     icon: expressjs,
   },
+  // {
+  //   name: "Firebase",
+  //   icon: firebase,
+  // },
   {
     name: "Mysql",
     icon: mysql,
@@ -357,6 +362,7 @@ const projects = [
     ],
     image: NusaPenida,
     source_code_link: "https://github.com/kasyaproject/DnT_Nusatour",
+    deployment_link: "https://kasyaproject-dnt-nusatour.vercel.app/",
   },
   {
     name: "Nation AI Clone",
@@ -396,7 +402,7 @@ const projects = [
     source_code_link: "https://github.com/kasyaproject/Notion-AI-Clone",
   },
   {
-    name: "Twitter Clone",
+    name: "Twitter Clone | MERN Stack",
     description:
       "An application or system that replicates the core features of Twitter, a social media platform designed for sharing short, real-time updates. The Twitter clone helps users stay connected by providing tools for posting tweets, following other users, and engaging in conversations through likes, retweets, and replies.",
     tags: [
@@ -430,7 +436,8 @@ const projects = [
       },
     ],
     image: TwitterClone,
-    source_code_link: "https://github.com/kasyaproject/Notion-AI-Clone",
+    source_code_link: "https://github.com/kasyaproject/twitter-clone",
+    deployment_link: "https://kasyaproject-twitter-clone.up.railway.app/",
   },
   {
     name: "Netflix Clone | MERN + Tmdb",
@@ -454,6 +461,10 @@ const projects = [
         color: "green-text-gradient",
       },
       {
+        name: "Firebase",
+        color: "orange-text-gradient",
+      },
+      {
         name: "ExpressJS",
         color: "dark-gray-to-light-gray-text-gradient",
       },
@@ -463,7 +474,8 @@ const projects = [
       },
     ],
     image: NetflixClone,
-    source_code_link: "https://kasyaproject-netflix-clone-mern.vercel.app/",
+    source_code_link: "https://github.com/kasyaproject/netflix-clone-mern",
+    deployment_link: "https://kasyaproject-netflix-clone-mern.vercel.app/",
   },
 ];
 

@@ -24,6 +24,7 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import boostrap from "./tech/bootstrap.png";
 import expressjs from "./tech/ExpressJs.png";
+import firebase from "./tech/ExpressJs.png";
 import cplus from "./tech/c++.png";
 import java from "./tech/java.png";
 import laravel from "./tech/Laravel.png";
@@ -65,6 +66,7 @@ export {
   java,
   Github,
   netbeans,
+  firebase,
   php,
   uiux,
   vscode,
