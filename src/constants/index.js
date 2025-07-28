@@ -31,10 +31,11 @@ import {
   pos,
   SPGinjal,
   NusaPenida,
-  firebase,
   NotionClone,
   TwitterClone,
   NetflixClone,
+  TicketPortal,
+  SealSelector
 } from "../assets";
 
 export const navLinks = [
@@ -343,6 +344,28 @@ const projects = [
       "https://github.com/kasyaproject/SP_Ginjal_-Dempster-Shafer-",
   },
   {
+    name: "POS Seal Selector",
+    description:
+      "Seal Selector is a decision support system built with PHP and MySQL that helps determine the optimal raw material for manufacturing security seals. It uses the Analytical Hierarchy Process (AHP) method to compare various criteria such as strength, cost, availability, and durability. The platform assists decision-makers in selecting the most suitable material based on structured and consistent pairwise comparisons. This system was developed as a case study at PT. Sinwa Perdana Mandiri to improve the efficiency and accuracy of material selection in the production process.",
+    tags: [
+      {
+        name: "laravel",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "mysql",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: SealSelector,
+    source_code_link:
+      "https://github.com/kasyaproject/skripsi-seal-selector-ahp",
+  },
+  {
     name: "Trip Nusa Penida",
     description:
       "A web-based travel planning platform dedicated to Nusa Penida, offering curated tours, activities, and travel guides to help users explore the island’s natural beauty and cultural heritage. This service provides tailored itineraries, local insights, and easy booking options for an unforgettable travel experience.",
@@ -476,6 +499,44 @@ const projects = [
     image: NetflixClone,
     source_code_link: "https://github.com/kasyaproject/netflix-clone-mern",
     deployment_link: "https://kasyaproject-netflix-clone-mern.vercel.app/",
+  },
+  {
+    name: "Ticket Portal | MERN + Midtrans",
+    description:
+      "Ticket Portal is a full-featured ticket booking platform built with the MERN stack (MongoDB, Express.js, React.js, Node.js). It allows users to browse upcoming events, view event details, and securely purchase tickets using Midtrans payment integration. The platform supports both customer and admin roles, enabling event management, order tracking, and real-time ticket availability updates.",
+    tags: [
+     {
+        name: "Next.js",
+        color: "white-to-gray-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Hero.ui",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Midtrans",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "ExpressJS",
+        color: "dark-gray-to-light-gray-text-gradient",
+      },
+      {
+        name: "Node Js",
+        color: "green-text-gradient",
+      },
+    ],
+    image: TicketPortal,
+    source_code_link: "https://github.com/kasyaproject/ticket-portal",
+    deployment_link: "https://kasyaproject-ticket-portal.vercel.app/",
   },
 ];
 

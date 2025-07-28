@@ -53,6 +53,8 @@ import NusaPenida from "./project/NusaPenida.png";
 import NotionClone from "./project/Notion Clone.png";
 import TwitterClone from "./project/Twitter Clone.png";
 import NetflixClone from "./project/netflix-clone.jpeg";
+import TicketPortal from "./project/ticket-portal.png";
+import SealSelector from "./project/pos-seal-selector.png";
 
 export {
   logo,
@@ -106,4 +108,6 @@ export {
   tripguide,
   NotionClone,
   TwitterClone,
+  TicketPortal,
+  SealSelector
 };
