@@ -41,6 +41,7 @@ import {
   vuejs,
   redux,
   nextjs,
+  vitejs,
 } from "../assets";
 
 export const navLinks = [
@@ -137,6 +138,10 @@ const technologies = [
   {
     name: "Next JS",
     icon: nextjs,
+  },
+  {
+    name: "Vite JS",
+    icon: vitejs,
   },
   {
     name: "Vue JS",

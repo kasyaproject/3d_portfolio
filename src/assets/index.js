@@ -19,6 +19,7 @@ import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import nextjs from "./tech/nextjs.png";
+import vitejs from "./tech/vite.svg";
 import vuejs from "./tech/vue.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
@@ -101,6 +102,7 @@ export {
   nodejs,
   reactjs,
   nextjs,
+  vitejs,
   vuejs,
   redux,
   tailwind,
