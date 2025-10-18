@@ -35,7 +35,12 @@ import {
   TwitterClone,
   NetflixClone,
   TicketPortal,
-  SealSelector
+  SealSelector,
+  VideoBelajar,
+  firebase,
+  vuejs,
+  redux,
+  nextjs,
 } from "../assets";
 
 export const navLinks = [
@@ -130,6 +135,14 @@ const technologies = [
     icon: reactjs,
   },
   {
+    name: "Next JS",
+    icon: nextjs,
+  },
+  {
+    name: "Vue JS",
+    icon: vuejs,
+  },
+  {
     name: "Monggo DB",
     icon: mongodb,
   },
@@ -141,13 +154,17 @@ const technologies = [
     name: "Express Js",
     icon: expressjs,
   },
-  // {
-  //   name: "Firebase",
-  //   icon: firebase,
-  // },
+  {
+    name: "Redux",
+    icon: redux,
+  },
   {
     name: "Mysql",
     icon: mysql,
+  },
+  {
+    name: "Firebase",
+    icon: firebase,
   },
   {
     name: "git",
@@ -505,7 +522,7 @@ const projects = [
     description:
       "Ticket Portal is a full-featured ticket booking platform built with the MERN stack (MongoDB, Express.js, React.js, Node.js). It allows users to browse upcoming events, view event details, and securely purchase tickets using Midtrans payment integration. The platform supports both customer and admin roles, enabling event management, order tracking, and real-time ticket availability updates.",
     tags: [
-     {
+      {
         name: "Next.js",
         color: "white-to-gray-text-gradient",
       },
@@ -537,6 +554,44 @@ const projects = [
     image: TicketPortal,
     source_code_link: "https://github.com/kasyaproject/ticket-portal",
     deployment_link: "https://kasyaproject-ticket-portal.vercel.app/",
+  },
+  {
+    name: "Video Belajar | Bootcamp Harisenin.com",
+    description:
+      "This project is part of the final mission in the Harisenin.com Bootcamp program. The 'Video Belajar' application is designed as an interactive learning platform that allows users to access, watch, and manage educational video content efficiently. This project was developed to apply all the skills learned throughout the bootcamp, including frontend, backend, and data management.",
+    tags: [
+      {
+        name: "Next.js",
+        color: "white-to-gray-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mysql",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Chadcn ui",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Redux",
+        color: "purple-text-gradient",
+      },
+      {
+        name: "ExpressJS",
+        color: "dark-gray-to-light-gray-text-gradient",
+      },
+      {
+        name: "Node Js",
+        color: "green-text-gradient",
+      },
+    ],
+    image: VideoBelajar,
+    source_code_link:
+      "https://github.com/kasyaproject/harisenin.com_mission_advance_fe_2",
   },
 ];
 

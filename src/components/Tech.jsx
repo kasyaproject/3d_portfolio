@@ -1,11 +1,9 @@
-import { BallCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { technologies } from "../constants";
 import { motion } from "framer-motion";
 
 import { styles } from "../style";
 import { Tilt } from "react-tilt";
-import { services } from "../constants";
 import { fadeIn, textVariant } from "../utils/motio";
 
 const TechCard = ({ index, name, icon, link }) => {
@@ -27,7 +25,7 @@ const TechCard = ({ index, name, icon, link }) => {
             <img
               src={icon}
               alt={name}
-              className="object-contain w-8 h-8 sm:w-16 sm:h-16"
+              className="object-contain w-8 h-8 mb-1 sm:w-16 sm:h-16"
             />
             <h3 className="text-xs font-bold text-center text-white">{name}</h3>
           </div>
@@ -48,15 +46,6 @@ const Tech = () => {
         {technologies.map((technology, index) => (
           <TechCard key={technology.title} index={index} {...technology} />
         ))}
-
-        {/* {technologies.map((technology) => (
-          <div className="w-28 h-28" key={technology.name}>
-            <BallCanvas
-              icon={technology.icon}
-              rotation={[2 * Math.PI, 0, 6.25]}
-            />
-          </div>
-        ))} */}
       </div>
     </>
   );

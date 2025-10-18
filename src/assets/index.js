@@ -18,13 +18,15 @@ import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
+import nextjs from "./tech/nextjs.png";
+import vuejs from "./tech/vue.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import boostrap from "./tech/bootstrap.png";
 import expressjs from "./tech/ExpressJs.png";
-import firebase from "./tech/ExpressJs.png";
+import firebase from "./tech/firebase.png";
 import cplus from "./tech/c++.png";
 import java from "./tech/java.png";
 import laravel from "./tech/Laravel.png";
@@ -35,6 +37,7 @@ import php from "./tech/php.png";
 import uiux from "./tech/ui_ux.png";
 import vscode from "./tech/vs-vode.png";
 import Github from "./tech/github.png";
+import Vercel from "./tech/vercel.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -55,6 +58,7 @@ import TwitterClone from "./project/Twitter Clone.png";
 import NetflixClone from "./project/netflix-clone.jpeg";
 import TicketPortal from "./project/ticket-portal.png";
 import SealSelector from "./project/pos-seal-selector.png";
+import VideoBelajar from "./project/video belajar.png";
 
 export {
   logo,
@@ -67,6 +71,7 @@ export {
   NetflixClone,
   java,
   Github,
+  Vercel,
   netbeans,
   firebase,
   php,
@@ -95,6 +100,8 @@ export {
   mongodb,
   nodejs,
   reactjs,
+  nextjs,
+  vuejs,
   redux,
   tailwind,
   typescript,
@@ -109,5 +116,6 @@ export {
   NotionClone,
   TwitterClone,
   TicketPortal,
-  SealSelector
+  SealSelector,
+  VideoBelajar,
 };

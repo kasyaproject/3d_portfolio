@@ -2,7 +2,7 @@ import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 
 import { styles } from "../style";
-import { github, web } from "../assets";
+import { github, Vercel, web } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motio";
@@ -46,7 +46,7 @@ const ProjectCard = ({
                 className="flex items-center justify-center w-10 h-10 rounded-full cursor-pointer black-gradient"
               >
                 <img
-                  src={web}
+                  src={Vercel}
                   alt="web"
                   className="object-contain w-1/2 h-1/2"
                 />
